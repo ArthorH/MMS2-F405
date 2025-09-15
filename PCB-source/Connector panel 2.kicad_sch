@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5a32e162-b963-4322-a36f-096c1a234e14")
+	(paper "A4")
+	(title_block
+		(title "MMS2")
+		(date "2025-04-22")
+		(rev "A")
+		(company "Moducard System")
+		(comment 1 "Artem Horiunov")
+		(comment 2 "Designed in poland")
+	)
+	(lib_symbols)
+)
