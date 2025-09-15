@@ -340,113 +340,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -5295,6 +5188,19 @@
 		)
 		(uuid "43926de9-1c90-4448-b2fd-516b477b7c00")
 	)
+	(text "UART FLIP HERE"
+		(exclude_from_sim no)
+		(at 235.458 26.67 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "49854d56-043b-40df-a1bd-5c20be6512cf")
+	)
 	(text "https://github.com/lbthomsen/st-link/tree/master"
 		(exclude_from_sim no)
 		(at 19.05 182.88 0)
@@ -5684,6 +5590,15 @@
 		(uuid "627fc4f6-b3b7-4706-a554-cdfaabbc360b")
 	)
 	(bus_entry
+		(at 251.46 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4f3a49-558e-4adf-b0a4-da630a832c6a")
+	)
+	(bus_entry
 		(at 135.89 114.3)
 		(size 2.54 2.54)
 		(stroke
@@ -5691,6 +5606,15 @@
 			(type default)
 		)
 		(uuid "6efc4dfd-9250-49f0-9d55-9a83f320a208")
+	)
+	(bus_entry
+		(at 251.46 43.18)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57f0652-3d18-4cee-9737-e7365bee1796")
 	)
 	(wire
 		(pts
@@ -5734,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 69.85) (xy 127 69.85)
+			(xy 116.84 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5751,6 +5675,16 @@
 			(type default)
 		)
 		(uuid "0754a4ae-26c5-4c27-becf-7650e88e5ee4")
+	)
+	(bus
+		(pts
+			(xy 255.27 43.18) (xy 251.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081f8149-9fdb-4f70-9d64-c67adab21aa7")
 	)
 	(wire
 		(pts
@@ -5844,6 +5778,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 57.15) (xy 227.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0a6cac-adef-44d6-8095-26097c5adea5")
+	)
+	(wire
+		(pts
 			(xy 35.56 97.79) (xy 35.56 99.06)
 		)
 		(stroke
@@ -5871,6 +5815,16 @@
 			(type default)
 		)
 		(uuid "21cf891e-7958-40c0-809c-3e9b1d120d74")
+	)
+	(wire
+		(pts
+			(xy 238.76 57.15) (xy 248.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f4288c-03ec-4a9a-ae6e-9e974709b900")
 	)
 	(wire
 		(pts
@@ -5921,6 +5875,16 @@
 			(type default)
 		)
 		(uuid "2ef02351-3c58-43f0-bb1c-b8f33e237a4d")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 227.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311b8f66-0408-43a5-8c68-2c936e140b03")
 	)
 	(wire
 		(pts
@@ -6132,15 +6096,15 @@
 		)
 		(uuid "4e8b7742-72b7-4f5b-a3c1-1162b59a8038")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 116.84 67.31) (xy 127 67.31)
+			(xy 233.68 44.45) (xy 236.22 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f198b45-3d15-49c6-bb28-290aeb5e93a0")
+		(uuid "4fcbe88a-7b40-451f-898d-3fdd48896471")
 	)
 	(wire
 		(pts
@@ -6191,6 +6155,26 @@
 			(type default)
 		)
 		(uuid "548b9056-b5c8-473d-bd02-63ad40807545")
+	)
+	(polyline
+		(pts
+			(xy 233.68 31.75) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e27e0a-b448-4a3b-b55b-eeab5b7b09e8")
+	)
+	(bus
+		(pts
+			(xy 251.46 43.18) (xy 251.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a29e34d-4d28-4beb-90f9-30e2e9747aa0")
 	)
 	(wire
 		(pts
@@ -6301,6 +6285,16 @@
 			(type default)
 		)
 		(uuid "6d17ca53-d28e-4ae4-a80b-84837ce3630f")
+	)
+	(wire
+		(pts
+			(xy 227.33 45.72) (xy 238.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fae83d3-0fc9-4642-beb3-b6fd03ecbca8")
 	)
 	(wire
 		(pts
@@ -6624,6 +6618,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 45.72) (xy 248.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6e27be-15e9-4cc7-9ead-b77a31364679")
+	)
+	(wire
+		(pts
 			(xy 40.64 123.19) (xy 54.61 123.19)
 		)
 		(stroke
@@ -6631,6 +6635,16 @@
 			(type default)
 		)
 		(uuid "af91d758-5c47-4693-b712-9bbaeecc1efe")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa89dba-59e1-4429-b078-f095b7d3a9a0")
 	)
 	(wire
 		(pts
@@ -6774,6 +6788,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f87218-ce63-461b-a0c4-c402ea62043b")
+	)
+	(wire
+		(pts
 			(xy 67.31 120.65) (xy 67.31 125.73)
 		)
 		(stroke
@@ -6781,6 +6805,16 @@
 			(type default)
 		)
 		(uuid "c6bc8ebc-be94-492a-9ac9-703cd8db4e7d")
+	)
+	(polyline
+		(pts
+			(xy 231.14 41.91) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9323a5-3dc3-4ce9-b2c1-e5b93850f609")
 	)
 	(wire
 		(pts
@@ -7082,6 +7116,16 @@
 		)
 		(uuid "044bf042-5f01-4bf4-90e8-aa36cf198d29")
 	)
+	(label "STLINK.TX"
+		(at 238.76 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27c86a98-a520-4a9b-a0c6-1d54098776f4")
+	)
 	(label "LED"
 		(at 134.62 85.09 180)
 		(effects
@@ -7112,6 +7156,16 @@
 		)
 		(uuid "529865d0-1954-4cf6-9529-1081805d028e")
 	)
+	(label "UART_FLIP_TX"
+		(at 224.79 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5870ba40-ac12-490a-ba48-d6140ba3d50d")
+	)
 	(label "DIO"
 		(at 134.62 95.25 180)
 		(effects
@@ -7132,8 +7186,8 @@
 		)
 		(uuid "5b04ca6b-7a0c-4201-9f87-7fc102f83ff7")
 	)
-	(label "STLINK_RX"
-		(at 127 69.85 180)
+	(label "UART_FLIP_RX"
+		(at 132.08 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7152,8 +7206,8 @@
 		)
 		(uuid "5f0c2289-03ca-489b-b6a2-fb9771238873")
 	)
-	(label "STLINK_TX"
-		(at 127 67.31 180)
+	(label "UART_FLIP_TX"
+		(at 132.08 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7262,6 +7316,16 @@
 		)
 		(uuid "a260f767-c014-4737-9032-e0d40bc47b0b")
 	)
+	(label "UART_FLIP_RX"
+		(at 224.79 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a400be9f-7630-4b03-a42b-a5be279b5182")
+	)
 	(label "SWD.~{RST}"
 		(at 123.19 114.3 0)
 		(effects
@@ -7291,6 +7355,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6905d65-ba20-4302-826f-89b4c8752d2e")
+	)
+	(label "STLINK.RX"
+		(at 238.76 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca37aa78-8963-44b5-acad-42e0c496c159")
 	)
 	(label "SWD.SWCLK"
 		(at 127 74.93 0)
@@ -7341,6 +7415,17 @@
 			(justify left bottom)
 		)
 		(uuid "f8801915-26cb-483f-83d7-2e422874900f")
+	)
+	(hierarchical_label "STLINK{UART}"
+		(shape input)
+		(at 255.27 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b98e98d-93da-4edf-a990-7085a3499f5c")
 	)
 	(hierarchical_label "SWD{SWD}"
 		(shape output)
@@ -12361,73 +12446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8856a984-5ca4-4e74-a36f-bbcd812483dc")
-		(property "Reference" "TP701"
-			(at 131.445 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 132.08 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f685dcf-dc05-4ac5-bb1d-f266fba0090c")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/be206670-9c4b-42bd-bfa9-418de159dda7"
-					(reference "TP701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
 		(at 256.54 96.52 90)
 		(unit 1)
@@ -14203,73 +14221,6 @@
 			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/be206670-9c4b-42bd-bfa9-418de159dda7"
 					(reference "#PWR0708")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc90ecfe-d9a9-4cce-9ecc-c0a699562190")
-		(property "Reference" "TP700"
-			(at 131.445 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 132.08 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 127 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b74c0def-f680-47be-af97-55e89810fc31")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/be206670-9c4b-42bd-bfa9-418de159dda7"
-					(reference "TP700")
 					(unit 1)
 				)
 			)

@@ -1010,234 +1010,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x02"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x02"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x02_0_0"
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x02_0_1"
-				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x02_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1342,7 +1114,7 @@
 	)
 	(text "Artem H."
 		(exclude_from_sim no)
-		(at 103.124 58.166 0)
+		(at 85.852 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,7 +1127,7 @@
 	)
 	(text "Autoterminator CAN"
 		(exclude_from_sim no)
-		(at 107.95 55.372 0)
+		(at 90.678 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1379,37 +1151,13 @@
 		(uuid "fabf171f-8e47-4997-a8b3-4755ec3e527c")
 	)
 	(junction
-		(at 170.18 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bce07c2-5a85-4f7a-ad87-b80bdc5bb22e")
-	)
-	(junction
-		(at 118.11 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2604d843-7fc9-48e0-a508-3dfbab6f3068")
-	)
-	(junction
-		(at 170.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d6d21a-9f30-4b37-9471-7ef4d03849f0")
-	)
-	(junction
-		(at 177.8 97.79)
+		(at 152.4 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ee072ae-7472-4298-b723-3a244a38ec05")
 	)
 	(junction
-		(at 118.11 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e23fb1c-d546-496d-94d2-a7fd07abb949")
-	)
-	(junction
-		(at 187.96 97.79)
+		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c679160-9972-435a-8c42-e313b5ee5506")
@@ -1482,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 170.18 72.39)
+			(xy 144.78 67.31) (xy 144.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 110.49) (xy 170.18 114.3)
+			(xy 144.78 110.49) (xy 144.78 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1512,23 +1260,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 187.96 97.79)
+			(xy 152.4 97.79) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ba3e54c-0c76-4713-8c41-1f0ca3ef4bd3")
-	)
-	(wire
-		(pts
-			(xy 170.18 114.3) (xy 170.18 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10da8ce9-abe3-4c69-b4f9-6f0ca5b0dd05")
 	)
 	(wire
 		(pts
@@ -1552,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 80.01) (xy 170.18 86.36)
+			(xy 144.78 80.01) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1562,17 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 170.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190fa55b-f5de-4418-b87d-64ee673d56b3")
-	)
-	(wire
-		(pts
-			(xy 176.53 120.65) (xy 170.18 120.65)
+			(xy 151.13 120.65) (xy 144.78 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 170.18 67.31)
+			(xy 154.94 67.31) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1642,16 +1370,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d3c02c4-99a4-4499-9717-bf4f0f6ecdf8")
-	)
-	(wire
-		(pts
 			(xy 219.71 128.27) (xy 229.87 128.27)
 		)
 		(stroke
@@ -1662,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 177.8 105.41)
+			(xy 152.4 97.79) (xy 152.4 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1672,33 +1390,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 142.24 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666c49fb-6440-477c-93bb-0d5c7097346d")
-	)
-	(wire
-		(pts
-			(xy 177.8 91.44) (xy 177.8 97.79)
+			(xy 152.4 91.44) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "685f03de-5ed6-40ed-9b11-7e96d72cd7cf")
-	)
-	(wire
-		(pts
-			(xy 144.78 101.6) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbe53da-039d-4d3d-9a3e-3aa9141f0ad2")
 	)
 	(wire
 		(pts
@@ -1709,16 +1407,6 @@
 			(type default)
 		)
 		(uuid "743c3b25-4e67-44c7-9f8b-61282c6bf8e5")
-	)
-	(wire
-		(pts
-			(xy 118.11 110.49) (xy 118.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75baf47f-a508-4b09-98ae-809e6041ed13")
 	)
 	(bus
 		(pts
@@ -1732,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 107.95) (xy 187.96 111.76)
+			(xy 162.56 107.95) (xy 162.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 187.96 97.79)
+			(xy 162.56 100.33) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 170.18 100.33)
+			(xy 144.78 96.52) (xy 144.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 97.79) (xy 193.04 97.79)
+			(xy 162.56 97.79) (xy 167.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1832,43 +1520,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 67.31) (xy 118.11 71.12)
+			(xy 118.11 67.31) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aca75e1f-66e2-4034-8627-bb5937031647")
-	)
-	(wire
-		(pts
-			(xy 170.18 67.31) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae2b70a3-0fae-482d-a866-03dc6f0414c8")
-	)
-	(wire
-		(pts
-			(xy 118.11 71.12) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae424c49-03ae-434e-b0ed-bd4287466387")
-	)
-	(wire
-		(pts
-			(xy 144.78 86.36) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75ff3d6-4ad7-4f91-9f3f-66937ea39a3f")
 	)
 	(wire
 		(pts
@@ -1922,16 +1580,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 142.24 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78a43b6-5b85-4228-bc43-ae04eccffdc8")
-	)
-	(wire
-		(pts
 			(xy 219.71 116.84) (xy 229.87 116.84)
 		)
 		(stroke
@@ -1939,16 +1587,6 @@
 			(type default)
 		)
 		(uuid "da8274f5-58ad-499d-a117-ea02dbbd2105")
-	)
-	(wire
-		(pts
-			(xy 142.24 114.3) (xy 142.24 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc433923-7ae6-4dad-a511-14e707bad7d5")
 	)
 	(wire
 		(pts
@@ -2002,23 +1640,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 120.65) (xy 118.11 114.3)
+			(xy 118.11 110.49) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f003e1fb-72f9-44ce-9189-1c279c13931c")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 118.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4caa255-1ea3-4c37-9ee9-8e08f701540c")
 	)
 	(wire
 		(pts
@@ -2042,7 +1670,7 @@
 		(uuid "1896099e-dc90-4ffa-988f-7cf27352b892")
 	)
 	(label "CAN2.+"
-		(at 180.34 67.31 180)
+		(at 154.94 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2072,7 +1700,7 @@
 		(uuid "2e932ed3-0f7c-4863-b038-f1ae672aba53")
 	)
 	(label "CAN_AUTOTERM.2"
-		(at 193.04 97.79 0)
+		(at 167.64 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2093,7 +1721,7 @@
 		(uuid "88c01453-de33-49b1-99c3-64dbc3108403")
 	)
 	(label "CAN2.-"
-		(at 176.53 120.65 0)
+		(at 151.13 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2679,7 +2307,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
-		(at 172.72 105.41 180)
+		(at 147.32 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2688,7 +2316,7 @@
 		(fields_autoplaced yes)
 		(uuid "21ce2667-6fc6-4b65-8d3a-b5e557deb046")
 		(property "Reference" "Q3"
-			(at 166.37 104.1399 0)
+			(at 140.97 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2325,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 166.37 106.68 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2706,7 +2334,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
-			(at 174.498 105.41 90)
+			(at 149.098 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2343,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2352,7 @@
 			)
 		)
 		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2361,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2370,7 @@
 			)
 		)
 		(property "Stock" "1046002"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2379,7 @@
 			)
 		)
 		(property "Price" "0.088USD"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2388,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2397,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2406,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2415,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2424,7 @@
 			)
 		)
 		(property "Category" "Transistors,MOSFETs"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2433,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha & Omega Semicon"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2442,7 @@
 			)
 		)
 		(property "Part" "AO3400A"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2451,7 @@
 			)
 		)
 		(property "Continuous Drain Current (Id)" "5.7A"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2460,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" "630pF@15V"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2469,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C~+150°C@(Tj)"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2478,7 @@
 			)
 		)
 		(property "Type" "1 N-channel"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2487,7 @@
 			)
 		)
 		(property "Drain Source Voltage (Vdss)" "30V"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2496,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" "1.4W"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2505,7 @@
 			)
 		)
 		(property "Gate Threshold Voltage (Vgs(th)@Id)" "1.5V@250uA"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2514,7 @@
 			)
 		)
 		(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "26.5mΩ@10V,5.7A"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2523,7 @@
 			)
 		)
 		(property "Total Gate Charge (Qg@Vgs)" "7nC@4.5V"
-			(at 172.72 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3064,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,120Ω")
-		(at 170.18 76.2 0)
+		(at 144.78 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3445,7 +3073,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d21b437-3b9c-4021-845a-becad932622c")
 		(property "Reference" "R1"
-			(at 172.72 76.1999 0)
+			(at 147.32 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3082,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 170.18 76.2 90)
+			(at 144.78 76.2 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3463,7 +3091,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 168.402 76.2 90)
+			(at 143.002 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3109,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3118,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3127,7 @@
 			)
 		)
 		(property "Stock" "207985"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3136,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3145,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3154,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3163,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3172,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3181,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3190,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3199,7 @@
 			)
 		)
 		(property "Part" "0402WGF1200TCE"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3208,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3217,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3226,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3235,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3244,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3253,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3262,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 170.18 76.2 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3287,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 187.96 104.14 0)
+		(at 162.56 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3668,7 +3296,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d5f3bfe-cc41-46c3-a9a9-7102e3b1fd4a")
 		(property "Reference" "R5"
-			(at 190.5 104.1399 0)
+			(at 165.1 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3305,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 187.96 104.14 90)
+			(at 162.56 104.14 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3686,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 186.182 104.14 90)
+			(at 160.782 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3332,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3341,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3350,7 @@
 			)
 		)
 		(property "Stock" "6144808"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3359,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3368,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3377,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3386,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3395,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3404,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3413,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3422,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3431,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3440,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3449,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3458,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3467,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3476,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3485,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 187.96 104.14 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,84 +3509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x02")
-		(at 142.24 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9001ea8-c61d-4a83-b896-652fe3070d59")
-		(property "Reference" "SW5"
-			(at 148.59 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_DIP_x02"
-			(at 148.59 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ec205f8a-87fd-42ea-b767-7f955b98deae")
-		)
-		(pin "2"
-			(uuid "6d2987c8-7ddd-4eeb-a364-615bb3dbfdb1")
-		)
-		(pin "1"
-			(uuid "727d4170-ec8a-44ea-b5e5-655019b39833")
-		)
-		(pin "4"
-			(uuid "bc13e2f2-e81c-4587-9d7c-871409d8c9f8")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/82b3ecc5-a850-4636-864a-97cd72453cd7"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
-		(at 172.72 91.44 0)
+		(at 147.32 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3968,7 +3520,7 @@
 		(fields_autoplaced yes)
 		(uuid "e159a0cf-b6bf-4100-93da-b3fbd77768c2")
 		(property "Reference" "Q2"
-			(at 166.37 90.1699 0)
+			(at 140.97 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3529,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 166.37 92.71 0)
+			(at 140.97 92.71 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3986,7 +3538,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
-			(at 174.498 91.44 90)
+			(at 149.098 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3547,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +3556,7 @@
 			)
 		)
 		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +3565,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +3574,7 @@
 			)
 		)
 		(property "Stock" "1046002"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +3583,7 @@
 			)
 		)
 		(property "Price" "0.088USD"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +3592,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +3601,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +3610,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +3619,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +3628,7 @@
 			)
 		)
 		(property "Category" "Transistors,MOSFETs"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +3637,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha & Omega Semicon"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +3646,7 @@
 			)
 		)
 		(property "Part" "AO3400A"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +3655,7 @@
 			)
 		)
 		(property "Continuous Drain Current (Id)" "5.7A"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +3664,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" "630pF@15V"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +3673,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C~+150°C@(Tj)"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +3682,7 @@
 			)
 		)
 		(property "Type" "1 N-channel"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +3691,7 @@
 			)
 		)
 		(property "Drain Source Voltage (Vdss)" "30V"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +3700,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" "1.4W"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +3709,7 @@
 			)
 		)
 		(property "Gate Threshold Voltage (Vgs(th)@Id)" "1.5V@250uA"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +3718,7 @@
 			)
 		)
 		(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "26.5mΩ@10V,5.7A"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +3727,7 @@
 			)
 		)
 		(property "Total Gate Charge (Qg@Vgs)" "7nC@4.5V"
-			(at 172.72 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +3755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 111.76 0)
+		(at 162.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4212,7 +3764,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2c3e0b4-34dd-4203-b6cf-781e057db59e")
 		(property "Reference" "#PWR015"
-			(at 187.96 118.11 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +3773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 116.84 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +3781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +3790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +3799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
