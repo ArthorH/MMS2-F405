@@ -490,8 +490,8 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.12,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -541,8 +541,8 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.11,
-        "diff_pair_width": 0.17,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -559,7 +559,24 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/CAN auto terminator/CAN1.+": "rgb(0, 255, 221)",
+      "/CAN auto terminator/CAN1.-": "rgb(0, 255, 221)",
+      "/CAN auto terminator/CAN2.+": "rgb(0, 255, 221)",
+      "/CAN auto terminator/CAN2.-": "rgb(0, 255, 221)",
+      "/CAN auto terminator/CAN_AUTOTERM.1": "rgb(0, 255, 221)",
+      "/CAN auto terminator/CAN_AUTOTERM.2": "rgb(0, 255, 221)",
+      "/Interboard_connector/Altmode10": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode11": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode12": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode13": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode14": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode15": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode16": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode7": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode8": "rgb(0, 255, 170)",
+      "/Interboard_connector/Altmode9": "rgb(0, 255, 170)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
