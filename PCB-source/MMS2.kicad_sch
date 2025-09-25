@@ -604,6 +604,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -999,6 +1111,12 @@
 		(color 0 0 0 0)
 		(uuid "a7b72a62-455a-4f8a-bf64-44b1161ff92b")
 	)
+	(junction
+		(at 187.96 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f26140fb-bd5b-4eb7-832a-1b2b0a3dbf43")
+	)
 	(no_connect
 		(at 35.56 189.23)
 		(uuid "01d0857a-320c-4765-a781-38ef7c486270")
@@ -1115,7 +1233,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 107.95) (xy 181.61 119.38)
+			(xy 180.34 107.95) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1263,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 107.95) (xy 166.37 119.38)
+			(xy 187.96 107.95) (xy 187.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1175,6 +1293,16 @@
 	)
 	(bus
 		(pts
+			(xy 195.58 101.6) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252d35d6-d62e-4e72-8a58-f232eb76c06a")
+	)
+	(bus
+		(pts
 			(xy 67.31 105.41) (xy 59.69 105.41)
 		)
 		(stroke
@@ -1183,15 +1311,35 @@
 		)
 		(uuid "27140e99-d438-45f1-b5b1-65eecf6ed00e")
 	)
+	(wire
+		(pts
+			(xy 78.74 170.18) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e06eba5-23fb-49a1-a012-470d606428c6")
+	)
 	(bus
 		(pts
-			(xy 177.8 107.95) (xy 177.8 119.38)
+			(xy 176.53 107.95) (xy 176.53 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e4512d4-e085-4964-8e41-c04d7688ff22")
+	)
+	(wire
+		(pts
+			(xy 88.9 167.64) (xy 86.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe443bd-1e11-4dfd-b48e-9088c085a175")
 	)
 	(wire
 		(pts
@@ -1202,6 +1350,16 @@
 			(type default)
 		)
 		(uuid "35bc5d91-37a7-4295-9241-5f86b52557c5")
+	)
+	(wire
+		(pts
+			(xy 88.9 170.18) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e1cccb-ce90-4c6c-bd8b-666ac62333f5")
 	)
 	(bus
 		(pts
@@ -1285,16 +1443,6 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 74.93) (xy 199.39 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6187f954-867a-4132-a58c-15729f8458a7")
-	)
-	(bus
-		(pts
 			(xy 59.69 78.74) (xy 67.31 78.74)
 		)
 		(stroke
@@ -1332,6 +1480,16 @@
 			(type default)
 		)
 		(uuid "67708e3d-0074-4564-b475-c14fa5331c77")
+	)
+	(bus
+		(pts
+			(xy 195.58 110.49) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e312a1-e688-48a9-8a78-8b251f7a7e86")
 	)
 	(bus
 		(pts
@@ -1382,6 +1540,16 @@
 			(type default)
 		)
 		(uuid "7a09e061-66f8-4759-b4e1-65a422f9d94a")
+	)
+	(bus
+		(pts
+			(xy 195.58 101.6) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5bc395-5c3e-4c9c-9dbe-45e5c908b35f")
 	)
 	(bus
 		(pts
@@ -1445,7 +1613,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 107.95) (xy 173.99 119.38)
+			(xy 172.72 107.95) (xy 172.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1683,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 107.95) (xy 170.18 119.38)
+			(xy 168.91 107.95) (xy 168.91 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1723,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 107.95) (xy 185.42 119.38)
+			(xy 184.15 107.95) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1572,6 +1740,16 @@
 			(type default)
 		)
 		(uuid "cca3a24f-149e-44e8-b960-5e6a7d925aa5")
+	)
+	(bus
+		(pts
+			(xy 187.96 110.49) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4039a0-f58e-49f4-868a-96edfb5fdd56")
 	)
 	(wire
 		(pts
@@ -1693,6 +1871,16 @@
 		)
 		(uuid "e60da407-4ce0-43f0-bc61-40aecc1e0e4a")
 	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 81.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77156a5-acce-4d24-a363-dde143142fdb")
+	)
 	(bus
 		(pts
 			(xy 224.79 66.04) (xy 224.79 49.53)
@@ -1724,7 +1912,7 @@
 		(uuid "ff853ba7-3280-470c-a673-d21a96fd6b1a")
 	)
 	(image
-		(at 156.21 176.53)
+		(at 149.86 176.53)
 		(scale 0.105023)
 		(uuid "2ddc63e4-e9d7-4b28-9516-c947427e9d3f")
 		(data "iVBORw0KGgoAAAANSUhEUgAABgMAAAH9CAYAAAA3cgwhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx"
@@ -18885,6 +19073,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 83.82 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0080727d-db04-4f12-bbe2-289c9c33dd07")
+		(property "Reference" "NT2"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "custom net tie"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PgndNetTie:SHLD"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5438eb95-364a-4903-bb0c-bffe5b172e77")
+		)
+		(pin "1"
+			(uuid "a7427e2f-0e4d-43ce-b8d6-a0b8835283d7")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 111.76 182.88 0)
 		(unit 1)
@@ -19013,6 +19269,72 @@
 			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 88.9 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33524aab-6462-4deb-9d97-0dd6171665d4")
+		(property "Reference" "#PWR081"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SHLD"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e4460fc-014f-468a-8919-7a33240cb586")
+		)
+		(instances
+			(project ""
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -19878,6 +20200,72 @@
 			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 78.74 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f892c6ce-649c-4cee-92c7-38cdaf887228")
+		(property "Reference" "#PWR082"
+			(at 78.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 78.613 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f62a849b-e67f-4fc5-8f40-e0a7850f307c")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -20891,16 +21279,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_Memory{I2C}" bidirectional
-			(at 191.77 74.93 0)
-			(uuid "5cecb859-5f0d-4d55-a48d-f7ff0a58aca3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C_Memory_addr" input
 			(at 191.77 78.74 0)
 			(uuid "1f4d0d38-d597-46fd-8d84-296b2bd98bcd")
@@ -20912,7 +21290,7 @@
 			)
 		)
 		(pin "Altmode[1..16]" input
-			(at 170.18 107.95 270)
+			(at 168.91 107.95 270)
 			(uuid "893c97a1-b4db-4644-8535-a810b3f98d52")
 			(effects
 				(font
@@ -20922,7 +21300,7 @@
 			)
 		)
 		(pin "Chainbus{UART}" input
-			(at 185.42 107.95 270)
+			(at 184.15 107.95 270)
 			(uuid "eb278e2e-4855-4621-b9a5-8ce3ba6c3896")
 			(effects
 				(font
@@ -20942,7 +21320,7 @@
 			)
 		)
 		(pin "Chainbus_UART_addr[0..2]" input
-			(at 181.61 107.95 270)
+			(at 180.34 107.95 270)
 			(uuid "47035972-0316-432d-9910-325ea5d4f46e")
 			(effects
 				(font
@@ -20952,7 +21330,7 @@
 			)
 		)
 		(pin "Chainbus{SPI}" input
-			(at 177.8 107.95 270)
+			(at 176.53 107.95 270)
 			(uuid "631c319d-94a4-4266-a40b-dd7cfb268221")
 			(effects
 				(font
@@ -20962,7 +21340,7 @@
 			)
 		)
 		(pin "Chainbus_I2C_addr[0..2]" input
-			(at 173.99 107.95 270)
+			(at 172.72 107.95 270)
 			(uuid "4882a2df-ffff-449e-a99e-fa84df1ae26c")
 			(effects
 				(font
@@ -20972,7 +21350,7 @@
 			)
 		)
 		(pin "Chainbus{I2C}" input
-			(at 166.37 107.95 270)
+			(at 187.96 107.95 270)
 			(uuid "1cfe7738-bddf-4a34-aeba-3d130a99de2c")
 			(effects
 				(font
@@ -21024,7 +21402,7 @@
 			)
 		)
 		(pin "I2C_Memory{I2C}" bidirectional
-			(at 199.39 74.93 180)
+			(at 199.39 101.6 180)
 			(uuid "77d6a29b-d24b-492e-8ad3-d1fc54e84999")
 			(effects
 				(font
@@ -21086,7 +21464,7 @@
 			)
 		)
 		(pin "Chainbus{UART}" input
-			(at 185.42 119.38 90)
+			(at 184.15 119.38 90)
 			(uuid "4bd91609-56c5-4c6d-994d-7d27a0739e78")
 			(effects
 				(font
@@ -21096,7 +21474,7 @@
 			)
 		)
 		(pin "Chainbus_UART_addr[0..2]" input
-			(at 181.61 119.38 90)
+			(at 180.34 119.38 90)
 			(uuid "cd0bf2cf-3be7-47f7-85dd-5556e044e349")
 			(effects
 				(font
@@ -21106,7 +21484,7 @@
 			)
 		)
 		(pin "Chainbus{SPI}" input
-			(at 177.8 119.38 90)
+			(at 176.53 119.38 90)
 			(uuid "0282ca1a-7170-41ae-85ad-30201d2688b2")
 			(effects
 				(font
@@ -21116,7 +21494,7 @@
 			)
 		)
 		(pin "Chainbus_I2C_addr[0..2]" input
-			(at 173.99 119.38 90)
+			(at 172.72 119.38 90)
 			(uuid "c051bbee-ebdd-4c80-9ced-8cae6db4eee4")
 			(effects
 				(font
@@ -21126,7 +21504,7 @@
 			)
 		)
 		(pin "Altmode[1..16]" input
-			(at 170.18 119.38 90)
+			(at 168.91 119.38 90)
 			(uuid "eaeb26e3-7e19-400c-b884-c75dcc447146")
 			(effects
 				(font
@@ -21136,7 +21514,7 @@
 			)
 		)
 		(pin "Chainbus{I2C}" input
-			(at 166.37 119.38 90)
+			(at 187.96 119.38 90)
 			(uuid "b5a67025-7126-4c9a-91ae-4b4dab008b12")
 			(effects
 				(font
