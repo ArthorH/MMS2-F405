@@ -1531,6 +1531,16 @@
 		)
 		(uuid "71b27ad5-bbfb-43dd-95fe-ac43e9b41594")
 	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f92a67-d5b2-45ec-9bfb-85ed1708a9d7")
+	)
 	(bus
 		(pts
 			(xy 123.19 110.49) (xy 125.73 110.49)
@@ -1580,6 +1590,16 @@
 			(type default)
 		)
 		(uuid "91491172-9359-474f-bab4-94ddfb09df7c")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cb612d-ae6d-4475-b053-9b19a5447f84")
 	)
 	(bus
 		(pts
@@ -1833,7 +1853,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 66.04) (xy 224.79 66.04)
+			(xy 191.77 62.23) (xy 224.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1903,7 @@
 	)
 	(bus
 		(pts
-			(xy 224.79 66.04) (xy 224.79 49.53)
+			(xy 224.79 62.23) (xy 224.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -20423,7 +20443,7 @@
 	)
 	(sheet
 		(at 24.13 57.15)
-		(size 31.75 40.64)
+		(size 31.75 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20447,22 +20467,12 @@
 			)
 		)
 		(property "Sheetfile" "MMS_CONNECTOR.kicad_sch"
-			(at 24.13 98.3746 0)
+			(at 24.13 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RXD2_LED" input
-			(at 24.13 90.17 180)
-			(uuid "c716a2c6-5888-4600-9a7b-0c2418fed9e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "CAN1{CAN}" bidirectional
@@ -20496,13 +20506,13 @@
 			)
 		)
 		(pin "TXD2_LED" input
-			(at 24.13 93.98 180)
-			(uuid "2971557d-f20c-4da4-ba6d-235a20ed1d25")
+			(at 55.88 96.52 0)
+			(uuid "b5ecb9c4-95a6-453f-9d18-28c0baa33998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -20629,16 +20639,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RXD2_LED" input
-			(at 273.05 114.3 0)
-			(uuid "d6ab9c67-e0dc-407a-a31c-f3941878b1b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN1{CAN}" bidirectional
 			(at 241.3 118.11 180)
 			(uuid "d42eb9e2-6350-4365-ab01-b11ceebca8cf")
@@ -20670,13 +20670,13 @@
 			)
 		)
 		(pin "TXD2_LED" input
-			(at 273.05 116.84 0)
-			(uuid "2595de16-13b4-4033-9683-7de48eeee749")
+			(at 241.3 66.04 180)
+			(uuid "ff203f41-e9d5-4ab6-b143-70f33c0ed715")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -21206,8 +21206,8 @@
 		)
 	)
 	(sheet
-		(at 127 63.5)
-		(size 64.77 44.45)
+		(at 127 59.69)
+		(size 64.77 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21222,7 +21222,7 @@
 		)
 		(uuid "e8de3869-2d75-4042-9141-0eb2bdb0b1a2")
 		(property "Sheetname" "MCU"
-			(at 127 62.7884 0)
+			(at 127 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21260,7 +21260,7 @@
 			)
 		)
 		(pin "SWD{SWD}" input
-			(at 191.77 66.04 0)
+			(at 191.77 62.23 0)
 			(uuid "407cff9c-e7f2-4d9a-b7b2-f626fe1ea17e")
 			(effects
 				(font
@@ -21357,6 +21357,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USER_LED_1" input
+			(at 127 96.52 180)
+			(uuid "f1d4f347-2707-4e73-9c3c-30373a61ee7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USER_LED_2" input
+			(at 191.77 66.04 0)
+			(uuid "8e5970fa-942b-4aed-8e72-9263f34f6dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

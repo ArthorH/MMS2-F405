@@ -1810,10 +1810,6 @@
 		(uuid "a5ee9fcd-b9ab-42bc-8f5d-b5733bc426d5")
 	)
 	(no_connect
-		(at 147.32 83.82)
-		(uuid "abd02f25-4477-49f5-9e51-08bdb94eadd5")
-	)
-	(no_connect
 		(at 147.32 78.74)
 		(uuid "c97fb6f0-3daf-44d1-9eab-887430fecefb")
 	)
@@ -1863,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 172.72 100.33)
+			(xy 158.75 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1880,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "0b673906-6755-4fa9-9ede-f5b6748a7da6")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 204.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4bce4f-6766-4a51-bee6-0dd3814309fe")
 	)
 	(wire
 		(pts
@@ -1923,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 172.72 102.87)
+			(xy 158.75 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1953,13 +1959,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 170.18 109.22)
+			(xy 162.56 115.57) (xy 162.56 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c04d9cf-e6ac-44ee-8180-08ec107bb790")
+	)
+	(wire
+		(pts
+			(xy 204.47 110.49) (xy 204.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e334be0-a3e0-48d8-934e-99a38f06f874")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5003cd5b-cef2-43c5-890e-12d61bbf3290")
 	)
 	(wire
 		(pts
@@ -1973,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 170.18 105.41)
+			(xy 165.1 115.57) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2083,6 +2109,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 119.38) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d6ff3f-4d9f-441c-8bd6-73ed57d8c58a")
+	)
+	(wire
+		(pts
 			(xy 137.16 57.15) (xy 137.16 59.69)
 		)
 		(stroke
@@ -2151,19 +2187,8 @@
 		)
 		(uuid "fa0b2a25-e0d7-46a0-83d8-fa88d116aaee")
 	)
-	(label "CAN_AUTOTERM.1"
-		(at 107.95 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a085253-746b-4e13-a413-8f394f1ee058")
-	)
 	(label "RST"
-		(at 166.37 102.87 0)
+		(at 158.75 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2171,6 +2196,19 @@
 			(justify left bottom)
 		)
 		(uuid "1a1c5556-84fd-4793-9f99-6447c2c0f858")
+	)
+	(label "LED2"
+		(at 204.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3279dd75-3369-4a3c-92d8-923777a79386")
 	)
 	(label "CAN_AUTOTERM.1"
 		(at 59.69 96.52 0)
@@ -2183,6 +2221,17 @@
 		)
 		(uuid "5437c30d-3d72-41a0-8c65-c5e37ee9d521")
 	)
+	(label "CAN_AUTOTERM.2"
+		(at 107.95 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f79c5f0-4bbf-494f-862d-0092c1784399")
+	)
 	(label "CH_UART.TX"
 		(at 168.91 91.44 180)
 		(effects
@@ -2192,6 +2241,17 @@
 			(justify right bottom)
 		)
 		(uuid "80f9acca-6bae-4151-8603-d4c56899009d")
+	)
+	(label "CAN_AUTOTERM.1"
+		(at 107.95 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "8212b735-ac79-479c-8c9c-0ae692527968")
 	)
 	(label "CH_UART.RX"
 		(at 168.91 93.98 180)
@@ -2224,7 +2284,7 @@
 		)
 		(uuid "a986aee8-7c83-4cc2-a4c5-2f432fd7ebd8")
 	)
-	(label "LED"
+	(label "LED1"
 		(at 113.03 102.87 0)
 		(effects
 			(font
@@ -2238,7 +2298,7 @@
 		(uuid "aa125332-60fb-493c-9aa9-76b62d21dab2")
 	)
 	(label "SWIO"
-		(at 166.37 100.33 0)
+		(at 158.75 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2246,6 +2306,19 @@
 			(justify left bottom)
 		)
 		(uuid "b403bc81-e5d9-4dcf-a3c7-3ca6d4cad035")
+	)
+	(label "LED2"
+		(at 157.48 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9f7cf34-78b1-4814-8ec8-f64c13ad38a2")
 	)
 	(label "RST"
 		(at 157.48 96.52 0)
@@ -2257,18 +2330,7 @@
 		)
 		(uuid "c8123c77-4dc8-46bd-b359-b015d5b43d2b")
 	)
-	(label "CAN_AUTOTERM.2"
-		(at 107.95 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd202a0d-8484-4ad4-83a4-e166b86a9079")
-	)
-	(label "LED"
+	(label "LED1"
 		(at 121.92 96.52 0)
 		(effects
 			(font
@@ -2459,6 +2521,166 @@
 			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/a88ce520-07df-403f-9cdd-d7ef2f7396d0"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
+		(at 204.47 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "312090fa-72a3-4c46-9b79-4a00641fded0")
+		(property "Reference" "D3"
+			(at 207.01 105.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 207.01 107.8547 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_0603"
+			(at 202.692 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40°C~+85°C Red 0603 LED Indication - Discrete ROHS"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2382519"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "6"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f1c3dca-0544-4b33-be2d-55cdd2e9491a")
+		)
+		(pin "1"
+			(uuid "17fff35f-d9f8-400e-b4eb-6742e3d41e3f")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/a88ce520-07df-403f-9cdd-d7ef2f7396d0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2920,8 +3142,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2872a3-b64d-4704-9b42-8a168c5738ba")
+		(property "Reference" "#PWR083"
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f35d158-38b1-47e9-8fba-5fdfd3296b37")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/a88ce520-07df-403f-9cdd-d7ef2f7396d0"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 177.8 102.87 180)
+		(at 170.18 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2930,7 +3218,7 @@
 		(fields_autoplaced yes)
 		(uuid "b73f7fe5-1062-49c8-b323-d24729062873")
 		(property "Reference" "J5"
-			(at 179.07 101.5999 0)
+			(at 171.45 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3227,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 179.07 104.1399 0)
+			(at 171.45 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3236,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
-			(at 177.8 102.87 0)
+			(at 170.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 102.87 0)
+			(at 170.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3254,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 177.8 102.87 0)
+			(at 170.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 109.22 0)
+		(at 162.56 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3003,7 +3291,7 @@
 		(fields_autoplaced yes)
 		(uuid "d11a59fe-9cf9-484c-9604-c9c7fe0ef768")
 		(property "Reference" "#PWR072"
-			(at 170.18 115.57 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 114.3 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 109.22 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 109.22 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 109.22 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,6 +3696,229 @@
 			(project ""
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/a88ce520-07df-403f-9cdd-d7ef2f7396d0"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,220Ω")
+		(at 204.47 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd69f7d4-d38b-4a30-a62e-202eef9c7e1d")
+		(property "Reference" "R23"
+			(at 207.01 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 204.47 115.57 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 202.692 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25091"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "617243"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF2200TCE"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "220Ω"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8826922-580e-4ae6-80c9-fe646883de0f")
+		)
+		(pin "2"
+			(uuid "0d505b77-7077-469c-8466-567219d52407")
+		)
+		(instances
+			(project "MMS2"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/a88ce520-07df-403f-9cdd-d7ef2f7396d0"
+					(reference "R23")
 					(unit 1)
 				)
 			)

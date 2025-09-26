@@ -7030,16 +7030,6 @@
 		)
 		(uuid "33dbec65-e3c8-4a56-8b15-6601a144e576")
 	)
-	(wire
-		(pts
-			(xy 370.84 31.75) (xy 370.84 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34830692-c0a1-480c-b4de-3943132b8840")
-	)
 	(bus
 		(pts
 			(xy 247.65 222.25) (xy 247.65 224.79)
@@ -7052,7 +7042,17 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 31.75) (xy 370.84 31.75)
+			(xy 336.55 35.56) (xy 336.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f0576d-36c1-4c73-b29a-35b1c653618a")
+	)
+	(wire
+		(pts
+			(xy 330.2 35.56) (xy 336.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7320,6 +7320,16 @@
 		)
 		(uuid "4e8700a0-e916-4756-8243-2af403c2b3cd")
 	)
+	(wire
+		(pts
+			(xy 367.03 39.37) (xy 361.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef4201d-6b52-4f04-bbe7-6e5583306dae")
+	)
 	(bus
 		(pts
 			(xy 378.46 133.35) (xy 381 133.35)
@@ -7329,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "4f4d4c15-6e12-42cb-ab11-2f775d8cd34c")
+	)
+	(wire
+		(pts
+			(xy 341.63 39.37) (xy 336.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f7ea31-1708-4e1f-b10b-b6a4c8d7c5ca")
 	)
 	(wire
 		(pts
@@ -7532,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 34.29) (xy 387.35 31.75)
+			(xy 361.95 35.56) (xy 361.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7962,7 +7982,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 31.75) (xy 387.35 31.75)
+			(xy 355.6 35.56) (xy 361.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9321,7 +9341,7 @@
 		(uuid "083add8e-a314-41c2-9a62-afb9d9f4b3c4")
 	)
 	(label "USER_LED_1"
-		(at 364.49 31.75 0)
+		(at 330.2 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9511,7 +9531,7 @@
 		(uuid "3267670b-5e2e-470b-a31a-c97845c8adce")
 	)
 	(label "USER_LED_2"
-		(at 381 31.75 0)
+		(at 355.6 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10534,6 +10554,17 @@
 		)
 		(uuid "27c52259-c94a-43ed-a0a8-bdf04da89891")
 	)
+	(hierarchical_label "USER_LED_2"
+		(shape input)
+		(at 367.03 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b20c800-7628-47fe-9a94-2453f35baec2")
+	)
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
 		(at 40.64 252.73 0)
@@ -10577,6 +10608,17 @@
 			(justify left)
 		)
 		(uuid "8df456c6-3588-4496-807c-1a83ecee5200")
+	)
+	(hierarchical_label "USER_LED_1"
+		(shape input)
+		(at 341.63 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a80b747a-81f7-4e1c-a342-9bdc525e29c6")
 	)
 	(hierarchical_label "Chainbus_SPI_CS[0..2]"
 		(shape input)
