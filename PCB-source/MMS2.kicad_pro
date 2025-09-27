@@ -58,7 +58,132 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|99250000|133938010|278f3b6e-c2ed-47be-b571-597b6a8a99a8|536c4297-40ab-4192-85c2-0ef3e7206456",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "courtyards_overlap|163739210|125963695|103bbbbf-a202-4b3c-abea-6bc63143e01a|ad710fde-260d-4c5b-a087-e89d62b68427",
+          "PTH will have flush mounted pcb nut. No collision. Error excluded. A.H."
+        ],
+        [
+          "courtyards_overlap|169375000|102355000|2b585c54-6886-46c5-8e99-92512aa9dd0a|b45b8660-b83e-4636-9629-68abe89d398d",
+          "Checked mechanics, it will fit. Exluding error A.H."
+        ],
+        [
+          "courtyards_overlap|172385000|121505000|103bbbbf-a202-4b3c-abea-6bc63143e01a|2b585c54-6886-46c5-8e99-92512aa9dd0a",
+          "Checked with mechanics. It will fit no problem. A.H."
+        ],
+        [
+          "courtyards_overlap|85739210|125963695|bbc958f1-7e20-495c-82aa-e890eef25af6|f2668ae3-ee5f-490e-90de-dbb9d13422a5",
+          "Checked mechanics, it will fit. Exluding error A.H."
+        ],
+        [
+          "courtyards_overlap|92145000|102355000|11ebea82-3f31-423e-9197-4321b9757c34|a564fc0c-f723-4a4a-852c-fb408853c0d8",
+          "Checked mechanics, it will fit. Exluding error A.H."
+        ],
+        [
+          "courtyards_overlap|94365000|121505000|a564fc0c-f723-4a4a-852c-fb408853c0d8|bbc958f1-7e20-495c-82aa-e890eef25af6",
+          "Checked mechanics, it will fit. Exluding error A.H."
+        ],
+        [
+          "hole_clearance|86950000|92370000|5594ddf9-718a-43bc-bace-ea36034c31b3|acd512ba-7c0c-49f7-9cb4-1e32c55aa600",
+          "USB spec, MFR says it ok. A.H."
+        ],
+        [
+          "hole_clearance|86950000|92370000|675cc84c-891e-4427-bee7-e14f6fe8893b|acd512ba-7c0c-49f7-9cb4-1e32c55aa600",
+          "USB conn spec. MFR says it's ok. A.H."
+        ],
+        [
+          "hole_clearance|86950000|98470000|0eca723f-6a4d-4e6e-b4fb-909c3e1b3f79|7c223601-4d91-43e8-ad6f-7121af47f032",
+          "USB conn spec. MFR says it's ok. A.H."
+        ],
+        [
+          "hole_clearance|86950000|98470000|ca54b8a7-94fe-41ba-a555-920f875c57f7|7c223601-4d91-43e8-ad6f-7121af47f032",
+          "USB conn spec. MFR says it's ok. A.H."
+        ],
+        [
+          "shorting_items|104375000|136300000|7b28f4dd-0bd6-4e97-8c0c-51d311a74b17|0115e162-dd81-4da0-9900-779d46eb178b",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "shorting_items|97408343|129700018|af227a57-2e28-4c50-be1b-dedce251fba6|a95285d1-e0cd-4fb2-8360-75474c343ef2",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "shorting_items|97408343|133900001|af227a57-2e28-4c50-be1b-dedce251fba6|4fb43dbd-1619-4644-b2e6-4a6d26f43405",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "shorting_items|97650001|133900001|278f3b6e-c2ed-47be-b571-597b6a8a99a8|4fb43dbd-1619-4644-b2e6-4a6d26f43405",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "shorting_items|99806621|134000001|48438b53-6d06-43a3-bec9-d5be69081a0e|536c4297-40ab-4192-85c2-0ef3e7206456",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "shorting_items|99806621|134531387|48438b53-6d06-43a3-bec9-d5be69081a0e|4fb43dbd-1619-4644-b2e6-4a6d26f43405",
+          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
+        ],
+        [
+          "solder_mask_bridge|104375000|136300000|7b28f4dd-0bd6-4e97-8c0c-51d311a74b17|0115e162-dd81-4da0-9900-779d46eb178b",
+          "Net-tie issue. I should come up with better net-tie. For now i just exclude error. A.H."
+        ],
+        [
+          "solder_mask_bridge|97000000|109012500|d7a69de9-e024-43a7-8682-ddf2211aa44c|bb04f807-23d7-49b5-a252-0a8f3f4ba51b",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|97000000|109412500|bb04f807-23d7-49b5-a252-0a8f3f4ba51b|1a27f2e4-cedd-4f14-a13d-f4fc299aa32d",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|97563000|109812500|1a27f2e4-cedd-4f14-a13d-f4fc299aa32d|41534c88-dd46-44da-8bc6-da6732f7e784",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|97737500|109012500|108a7511-27d9-40ba-9917-3d1b2e256357|d7a69de9-e024-43a7-8682-ddf2211aa44c",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|97962500|110150000|41534c88-dd46-44da-8bc6-da6732f7e784|63ccb723-8cf8-4e4f-b8fd-8b98c02cf364",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98137500|109013000|e6c13be6-5fef-48fb-8199-80625c06bd44|108a7511-27d9-40ba-9917-3d1b2e256357",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98362500|108787500|e6c13be6-5fef-48fb-8199-80625c06bd44|40c956c4-f374-443b-ac80-3e312100928c",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98362500|109113000|e6c13be6-5fef-48fb-8199-80625c06bd44|5c9f79b6-86ec-4c03-acc1-7e064f1bc21d",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98362500|109587000|63ccb723-8cf8-4e4f-b8fd-8b98c02cf364|4fe94dbf-93e6-4fc4-bfeb-7c0bc53185b8",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98537000|109187500|5c9f79b6-86ec-4c03-acc1-7e064f1bc21d|40c956c4-f374-443b-ac80-3e312100928c",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "solder_mask_bridge|98537000|109587500|4fe94dbf-93e6-4fc4-bfeb-7c0bc53185b8|5c9f79b6-86ec-4c03-acc1-7e064f1bc21d",
+          "USB switch footprint issues. MFR can produce this with no problem. A.H."
+        ],
+        [
+          "unconnected_items|113687700|123945357|7b40912a-3056-401b-8191-072d0896bb46|11b81d85-b2bd-4258-a8d9-fba047ee14c1",
+          "Connected by mechanical part. A.H."
+        ],
+        [
+          "unconnected_items|151500000|131424000|17f48172-8027-48d4-80b3-14a3d5dbdf14|1c135e2a-8c85-440e-b181-11fb46e5c0b6",
+          "Connected by mechanical part. A.H."
+        ]
+      ],
       "meta": {
         "version": 2
       },

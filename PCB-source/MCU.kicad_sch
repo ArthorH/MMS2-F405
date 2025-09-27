@@ -6562,6 +6562,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 87.63) (xy 220.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d6f785-32bb-4493-b6a0-0c221aaa2208")
+	)
+	(wire
+		(pts
 			(xy 386.08 181.61) (xy 386.08 184.15)
 		)
 		(stroke
@@ -9460,16 +9470,6 @@
 		)
 		(uuid "2a3154c7-2e22-41cf-a5ce-2baff3f5e35f")
 	)
-	(label "USER_LED_2"
-		(at 270.51 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dd20483-9e38-4ea9-a8bb-239587706ff1")
-	)
 	(label "BOOT0"
 		(at 85.09 85.09 180)
 		(effects
@@ -9810,16 +9810,6 @@
 		)
 		(uuid "67adb4dd-abdb-459e-8a3a-58c8f731ab64")
 	)
-	(label "USER_LED_1"
-		(at 270.51 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69082260-49c0-4296-bcb8-30b7d35c000e")
-	)
 	(label "Chainbus.TX"
 		(at 113.03 173.99 0)
 		(effects
@@ -9980,6 +9970,16 @@
 		)
 		(uuid "89004749-594d-4d30-954d-7f5e3714d3c7")
 	)
+	(label "USER_LED_2"
+		(at 270.51 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b8640c5-4d14-499b-8c9f-90d8cb16e69d")
+	)
 	(label "Altmode3"
 		(at 269.24 95.25 0)
 		(effects
@@ -10019,6 +10019,16 @@
 			(justify left bottom)
 		)
 		(uuid "912ad23d-8951-4b64-a947-45bd8ef8c164")
+	)
+	(label "USR_BUTTON"
+		(at 214.63 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "929015d3-4266-4101-9cb3-e56f20a2563d")
 	)
 	(label "Chainbus_SPI_CS2"
 		(at 241.3 255.27 180)
@@ -10219,6 +10229,16 @@
 			(justify left bottom)
 		)
 		(uuid "c51fcc90-1712-4ce8-8799-23d34ae9382e")
+	)
+	(label "USER_LED_1"
+		(at 270.51 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c74be10b-688d-44c4-8f78-8e886934814a")
 	)
 	(label "Chainbus_UART_addr0"
 		(at 241.3 234.95 180)

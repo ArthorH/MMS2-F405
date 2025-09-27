@@ -13,7 +13,7 @@
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
-		(symbol "power:VBUS"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VBUS"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -116,7 +116,132 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -284,6 +409,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 82.55) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b1a68d-6a0e-4ad4-a3ba-189ae612e34b")
+	)
+	(wire
+		(pts
 			(xy 181.61 87.63) (xy 191.77 87.63)
 		)
 		(stroke
@@ -304,26 +439,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 130.81) (xy 181.61 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41e07892-4252-4e26-a850-94b0ef1688e2")
-	)
-	(wire
-		(pts
-			(xy 166.37 124.46) (xy 166.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e0a671-911e-407a-a7ed-77b8f18f2a83")
-	)
-	(wire
-		(pts
 			(xy 40.64 81.28) (xy 40.64 88.9)
 		)
 		(stroke
@@ -331,6 +446,26 @@
 			(type default)
 		)
 		(uuid "6b030806-40ba-407e-b874-ff940f036cc3")
+	)
+	(wire
+		(pts
+			(xy 241.3 87.63) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c732a01-940f-4595-94b5-32b419d498cf")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8973d195-ffee-4e64-8c33-3a660fbfc6c3")
 	)
 	(wire
 		(pts
@@ -351,6 +486,16 @@
 			(type default)
 		)
 		(uuid "b0106f28-8a55-4731-b88b-710308c91c8a")
+	)
+	(wire
+		(pts
+			(xy 181.61 130.81) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d608c3e4-12cc-47e2-b110-aad7fff724cc")
 	)
 	(wire
 		(pts
@@ -14115,6 +14260,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd40f21-0947-44c9-bee8-0dbe4254da62")
+		(property "Reference" "#PWR086"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 173.99 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7c79e9-2539-4f6c-b05f-c365e3b85aff")
+		)
+		(instances
+			(project ""
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c3406df1-7cb0-4484-a477-0c72b46ba076"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 40.64 81.28 0)
 		(unit 1)
@@ -14181,17 +14392,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 166.37 124.46 0)
+		(lib_id "power:+3V3")
+		(at 252.73 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cad62727-d6f8-4aad-b578-5b3a65a9b501")
+		(uuid "f7a3c2a3-e408-4949-acf9-bca1f0e3aca5")
 		(property "Reference" "#PWR017"
-			(at 166.37 128.27 0)
+			(at 252.73 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14199,8 +14410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 166.37 119.38 0)
+		(property "Value" "+3V3"
+			(at 252.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +14419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 124.46 0)
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +14428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 124.46 0)
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,8 +14436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 166.37 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14235,7 +14446,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6bdce1e-84a8-46ba-8867-2cae4f4d33c3")
+			(uuid "776c007e-0f07-4fc1-b4b9-2fb23f574047")
 		)
 		(instances
 			(project ""
