@@ -2678,7 +2678,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0402,1.2kΩ"
+		(symbol "PCM_JLCPCB-Resistors:0402,1.5kΩ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2697,7 +2697,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1.2kΩ"
+			(property "Value" "1.5kΩ"
 				(at 0 0 90)
 				(do_not_autoplace)
 				(effects
@@ -2715,7 +2715,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1201TCE_C25862.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2724,7 +2724,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2733,7 +2733,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25862"
+			(property "LCSC" "C25867"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2742,7 +2742,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "191144"
+			(property "Stock" "983176"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2787,7 +2787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Class" "Preferred Component"
+			(property "Class" "Basic Component"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2814,7 +2814,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "0402WGF1201TCE"
+			(property "Part" "0402WGF1501TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2823,7 +2823,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "1.2kΩ"
+			(property "Resistance" "1.5kΩ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2895,7 +2895,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0402,1.2kΩ_0_1"
+			(symbol "0402,1.5kΩ_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -2908,7 +2908,7 @@
 					)
 				)
 			)
-			(symbol "0402,1.2kΩ_1_1"
+			(symbol "0402,1.5kΩ_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5074,6 +5074,18 @@
 		(uuid 68866b50-4cec-4877-bc4b-e035f0d4f226)
 	)
 	(rectangle
+		(start 152.4 25.4)
+		(end 196.85 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6658ceb-374e-48c4-950e-1e03698a85c8)
+	)
+	(rectangle
 		(start 113.03 38.354)
 		(end 149.606 44.704)
 		(stroke
@@ -5096,6 +5108,18 @@
 			(type none)
 		)
 		(uuid db1c9c29-e4e7-4e0c-bcce-a2332d8105e1)
+	)
+	(rectangle
+		(start 152.4 20.32)
+		(end 196.85 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5a14151-7830-4b9f-9a60-d568a3f69388)
 	)
 	(rectangle
 		(start 97.79 33.02)
@@ -5237,6 +5261,19 @@
 		)
 		(uuid "7dd8d158-18e3-43cd-a724-9c92b20286a6")
 	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 152.908 23.114 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9d141c81-cb1f-4b22-b143-795bf3de5cf8")
+	)
 	(text " MANDATORY CB VERSION"
 		(exclude_from_sim no)
 		(at 130.81 43.18 0)
@@ -5281,6 +5318,20 @@
 			(justify left)
 		)
 		(uuid "bb08c2c7-1be9-4461-847c-b437f570700e")
+	)
+	(text "ALTERNATE PART:\nGigaDevice Semicon Beijing GD32F103CBT6\nPIN AND FW COMPATIBLE\n\nWAZZUP BEIJING\n"
+		(exclude_from_sim no)
+		(at 153.162 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "c80e5f45-74a9-43d6-8af7-5d89b8cbead6")
 	)
 	(text "Populate with STM32F103C8, STM32F103CB\n"
 		(exclude_from_sim no)
@@ -7645,228 +7696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,1.2kΩ")
-		(at 232.41 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f55e7db-e550-4cbc-8f0f-366008632525")
-		(property "Reference" "R712"
-			(at 233.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.2kΩ"
-			(at 232.41 107.95 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 230.632 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1201TCE_C25862.pdf"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25862"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "191144"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1201TCE"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1.2kΩ"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a4a0131-93ed-48cc-b772-bceeac10f667")
-		)
-		(pin "2"
-			(uuid "b58f2d8f-9238-4fef-8ad3-542bd3537823")
-		)
-		(instances
-			(project "MMS2"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/be206670-9c4b-42bd-bfa9-418de159dda7"
-					(reference "R712")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 72.39 0)
 		(unit 1)
@@ -9480,6 +9309,229 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,1.5kΩ")
+		(at 232.41 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c088e8-fca2-4882-96fb-89065673c35a")
+		(property "Reference" "R712"
+			(at 234.95 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5kΩ"
+			(at 232.41 107.95 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 230.632 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25867"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "983176"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1501TCE"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1.5kΩ"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fadffe4-9d83-4cee-ae1d-ca92507e54a9")
+		)
+		(pin "2"
+			(uuid "cc8651e4-ac22-4274-9896-e9caff57f83b")
+		)
+		(instances
+			(project ""
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/be206670-9c4b-42bd-bfa9-418de159dda7"
+					(reference "R712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 175.26 113.03 0)
 		(unit 1)
@@ -10580,6 +10632,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8304"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -11702,7 +11763,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7704b27d-280e-447e-9b85-5c4b2525d673")
@@ -13686,7 +13747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388837"
+		(property "LCSC" "C20526"
 			(at 234.95 96.52 0)
 			(effects
 				(font

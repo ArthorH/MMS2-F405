@@ -2069,6 +2069,30 @@
 		(uuid 3b73aaca-6421-4dc9-b851-a2d62e7aa5ab)
 	)
 	(rectangle
+		(start 69.85 128.27)
+		(end 125.73 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40cf67d4-ec40-4eb9-ae02-1df6d863b6c3)
+	)
+	(rectangle
+		(start 69.85 133.35)
+		(end 125.73 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4cd32e1f-d2bb-4eb4-9b74-4108d54a497e)
+	)
+	(rectangle
 		(start 130.81 125.73)
 		(end 171.45 130.81)
 		(stroke
@@ -2091,6 +2115,33 @@
 			)
 		)
 		(uuid "105bf90f-ec6e-4e7e-8aaf-f3f28f3673be")
+	)
+	(text "NO ALTERNATE PART AVALIABLE\nIncompatible pinout.\n(tho at price of 0.2usd this is cheapest buck anyway)\n"
+		(exclude_from_sim no)
+		(at 70.612 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "12d2603a-416d-4ac9-b9a2-5e4a0c2a6c86")
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 70.358 131.064 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1e0ec6cc-b4c1-4d88-8404-70f395b7a674")
 	)
 	(text "V_{OUT} = 0.765*(1+33k2/10k) = 3.3V"
 		(exclude_from_sim no)
@@ -2879,6 +2930,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C116592"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0d2dfd17-a974-44c9-aa44-84e4c82b7a20")
 		)
@@ -3626,7 +3686,7 @@
 		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c686bbe-5616-4f60-aabc-6066472c7056")

@@ -389,18 +389,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "55V MAX!"
-		(exclude_from_sim no)
-		(at 54.864 172.212 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 10.16)
-				(bold yes)
-			)
-		)
-		(uuid "4203d051-9f74-4597-b3df-4c7935071fe6")
-	)
 	(junction
 		(at 181.61 87.63)
 		(diameter 0)

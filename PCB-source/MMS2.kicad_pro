@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 0.65,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -88,26 +88,6 @@
           "Checked mechanics, it will fit. Exluding error A.H."
         ],
         [
-          "hole_clearance|86950000|92370000|5594ddf9-718a-43bc-bace-ea36034c31b3|acd512ba-7c0c-49f7-9cb4-1e32c55aa600",
-          "USB spec, MFR says it ok. A.H."
-        ],
-        [
-          "hole_clearance|86950000|92370000|675cc84c-891e-4427-bee7-e14f6fe8893b|acd512ba-7c0c-49f7-9cb4-1e32c55aa600",
-          "USB conn spec. MFR says it's ok. A.H."
-        ],
-        [
-          "hole_clearance|86950000|98470000|0eca723f-6a4d-4e6e-b4fb-909c3e1b3f79|7c223601-4d91-43e8-ad6f-7121af47f032",
-          "USB conn spec. MFR says it's ok. A.H."
-        ],
-        [
-          "hole_clearance|86950000|98470000|ca54b8a7-94fe-41ba-a555-920f875c57f7|7c223601-4d91-43e8-ad6f-7121af47f032",
-          "USB conn spec. MFR says it's ok. A.H."
-        ],
-        [
-          "shorting_items|104375000|136300000|7b28f4dd-0bd6-4e97-8c0c-51d311a74b17|0115e162-dd81-4da0-9900-779d46eb178b",
-          "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
-        ],
-        [
           "shorting_items|97408343|129700018|af227a57-2e28-4c50-be1b-dedce251fba6|a95285d1-e0cd-4fb2-8360-75474c343ef2",
           "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
         ],
@@ -126,10 +106,6 @@
         [
           "shorting_items|99806621|134531387|48438b53-6d06-43a3-bec9-d5be69081a0e|4fb43dbd-1619-4644-b2e6-4a6d26f43405",
           "Net-tie issues (kicad cant handle shields i guess). Exluding this untill i come up with better net-tie. A.H."
-        ],
-        [
-          "solder_mask_bridge|104375000|136300000|7b28f4dd-0bd6-4e97-8c0c-51d311a74b17|0115e162-dd81-4da0-9900-779d46eb178b",
-          "Net-tie issue. I should come up with better net-tie. For now i just exclude error. A.H."
         ],
         [
           "solder_mask_bridge|97000000|109012500|d7a69de9-e024-43a7-8682-ddf2211aa44c|bb04f807-23d7-49b5-a252-0a8f3f4ba51b",
@@ -182,6 +158,10 @@
         [
           "unconnected_items|151500000|131424000|17f48172-8027-48d4-80b3-14a3d5dbdf14|1c135e2a-8c85-440e-b181-11fb46e5c0b6",
           "Connected by mechanical part. A.H."
+        ],
+        [
+          "unconnected_items|87010000|104000000|976dec6a-5caa-4400-a5e8-f0dbbb53c933|5393b918-6d41-43ce-bea0-4bdb569cd8e7",
+          ""
         ]
       ],
       "meta": {

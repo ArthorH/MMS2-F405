@@ -6651,6 +6651,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9002"
+			(at 187.96 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb87ae18-0c73-40c0-b1aa-7f3165c4082a")
 		)

@@ -7368,6 +7368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5173373"
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C11"
 			(uuid "f899205b-7129-41af-aeb6-7ee6ad38e4ba")
 		)

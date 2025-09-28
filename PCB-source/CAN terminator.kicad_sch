@@ -1282,6 +1282,17 @@
 		)
 		(uuid "413925a6-dbf5-440a-8d73-214c3385f158")
 	)
+	(text "Drop in chineese replacement part:\nGAQY221S, APY221S\nSame RDS-on. Turn on time -> dont care\nPIN COMPATIBLE"
+		(exclude_from_sim no)
+		(at 44.196 148.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45b8948b-2303-45e3-8b7a-0d6a205511e1")
+	)
 	(text "1k"
 		(exclude_from_sim no)
 		(at 51.054 112.014 0)
@@ -2026,6 +2037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C141522"
+			(at 110.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4aa71864-2af5-4972-ba24-7edc8dd1f577")
 		)
@@ -2541,6 +2561,15 @@
 			)
 		)
 		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOIC-4-6 (MFSOP-4-6)"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141522"
 			(at 152.4 96.52 0)
 			(effects
 				(font

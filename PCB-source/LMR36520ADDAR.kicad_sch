@@ -3009,6 +3009,30 @@
 		(uuid 6c0ba379-87cd-4e62-87e1-469024dbcae3)
 	)
 	(rectangle
+		(start 71.12 129.54)
+		(end 118.11 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8fa4c626-f573-49be-924d-4928ba4c0405)
+	)
+	(rectangle
+		(start 71.12 124.46)
+		(end 118.11 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c0a703f8-4409-4144-a43d-b29f4e3b3969)
+	)
+	(rectangle
 		(start 30.48 34.036)
 		(end 148.59 39.116)
 		(stroke
@@ -3032,6 +3056,33 @@
 			)
 		)
 		(uuid "1a88e3e4-732d-4cf9-8101-f90bf14a3f9f")
+	)
+	(text "NO ALTERNATE PART AVALIABLE\nIF F-version is choosen instead of A-version\nit will have lower efficency at lower current \ndue to F-ver being fixed freq"
+		(exclude_from_sim no)
+		(at 71.882 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "393a532d-3bc6-4545-9661-e54381a6095a")
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 71.628 127.254 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3bb022e1-e9f7-4d43-af09-b2cceb7c8ff4")
 	)
 	(text "INFORMATION"
 		(exclude_from_sim no)
@@ -9013,6 +9064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917354"
+			(at 162.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c69fc6f9-9431-483a-bdb0-5eb1e0189988")
 		)
@@ -10564,6 +10624,15 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=1000kHz, Adjustable output voltage, HSOP-8"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2879422"
 			(at 128.27 82.55 0)
 			(effects
 				(font

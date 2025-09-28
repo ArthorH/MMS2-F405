@@ -5499,6 +5499,18 @@
 		(uuid 837c33c3-0f35-4370-be0e-d678492fe8d4)
 	)
 	(rectangle
+		(start 271.78 170.18)
+		(end 316.23 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88e396ab-9d69-495f-9d08-7601581aa5f7)
+	)
+	(rectangle
 		(start 293.37 210.82)
 		(end 350.52 247.65)
 		(stroke
@@ -5533,6 +5545,18 @@
 			(type none)
 		)
 		(uuid 9683f24e-faf7-49cd-b5c9-b4563454297a)
+	)
+	(rectangle
+		(start 271.78 175.26)
+		(end 316.23 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a502398a-0817-496e-8fe0-119cb4dc01c3)
 	)
 	(rectangle
 		(start 354.33 101.6)
@@ -5607,6 +5631,19 @@
 			(justify left)
 		)
 		(uuid "16269194-8973-495f-a15b-5a5ac93cce37")
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 272.288 172.974 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "221d213d-b5ec-4c32-898c-121fbea3ed9b")
 	)
 	(text "CHAINBUS UART\n"
 		(exclude_from_sim no)
@@ -5757,6 +5794,20 @@
 		)
 		(uuid "aaac9d0d-df74-4abf-a4f9-04a07ea1d3ac")
 	)
+	(text "ALTERNATE PART:\nAPM32F405RGT6 - C5290473\nCKS32F405RGT6 - C5185730\nGD32F405RGT6  - C99031"
+		(exclude_from_sim no)
+		(at 272.542 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "abf955bd-8a71-4b2b-8385-80e4c82b4546")
+	)
 	(text "RESET BUTTON"
 		(exclude_from_sim no)
 		(at 18.542 163.068 0)
@@ -5807,6 +5858,16 @@
 			)
 		)
 		(uuid "e1c420b9-dc02-4482-be70-20902f58b8a5")
+	)
+	(text "REV A. NC"
+		(exclude_from_sim no)
+		(at 116.078 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e64f99a8-63f7-460d-a90a-926521509e9e")
 	)
 	(text "CRYSTAL RESONATORS"
 		(exclude_from_sim no)
@@ -11219,7 +11280,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1186e4fa-9f7f-4cc2-a2c2-4eb7877e0d4b")
 		(property "Reference" "C410"
 			(at 86.868 88.9 0)
@@ -11657,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2888954"
+		(property "LCSC" "C22375371"
 			(at 48.26 185.42 0)
 			(effects
 				(font
@@ -14617,7 +14678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2888954"
+		(property "LCSC" "C22375371"
 			(at 53.34 144.78 0)
 			(effects
 				(font
@@ -17604,6 +17665,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15742"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "52"
 			(uuid "faf40464-e819-4307-84b8-5aa2037e34c6")
 		)
@@ -18710,7 +18780,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f93a1e8f-1410-4bb8-a31f-640689250375")
 		(property "Reference" "R401"
 			(at 67.31 82.804 90)

@@ -1381,41 +1381,92 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 180.848 96.52)
+		(end 225.298 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c6dd754-e604-42e1-81f3-40d6a8cf22db)
+	)
+	(rectangle
+		(start 180.848 101.6)
+		(end 225.298 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f196483b-a330-455f-9792-3d575b5e3954)
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 181.356 99.314 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "57356923-26e1-43c9-9d1d-c6b4c747ea09")
+	)
+	(text "ALTERNATE PART:\nWuxi Maxinmicro MX74700T\n\nPIN COMPATIBLE.\n"
+		(exclude_from_sim no)
+		(at 181.61 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "a155680b-5a37-4d9b-a1d3-9917362c05f3")
+	)
 	(junction
-		(at 142.24 80.01)
+		(at 130.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e59736b-1991-4d12-8d8d-fba02bf2068f")
+	)
+	(junction
+		(at 157.48 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13dd90bc-d657-416b-a445-1c8a8792109e")
+	)
+	(junction
+		(at 142.24 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43b8ed7f-762a-4354-a008-5ab0c69815ac")
 	)
 	(junction
-		(at 124.46 80.01)
+		(at 120.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53d57cfa-059f-4eab-bcd1-11e06f46e4fb")
+		(uuid "8d4e2e10-9d0a-489f-80af-b505d2cc6974")
 	)
 	(junction
-		(at 157.48 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "959ee642-41ed-4fbd-ae77-27201bb2fc27")
-	)
-	(junction
-		(at 116.84 80.01)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff3e838-ae89-419b-842d-7660e4d3350c")
 	)
 	(junction
-		(at 167.64 80.01)
+		(at 167.64 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c124bae2-cca3-40b4-a974-1ff8302a90a2")
-	)
-	(junction
-		(at 130.81 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d99a7cbe-cf0d-4d40-8ac6-2521d925aa1d")
 	)
 	(wire
 		(pts
@@ -1429,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.01) (xy 142.24 88.9)
+			(xy 142.24 76.2) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1439,33 +1490,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 157.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a928707-5283-4165-b9c4-469f8a2f429b")
-	)
-	(wire
-		(pts
-			(xy 154.94 80.01) (xy 157.48 80.01)
+			(xy 154.94 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2de7c102-ed82-46c3-80f1-dba6f4b27f74")
-	)
-	(wire
-		(pts
-			(xy 130.81 80.01) (xy 130.81 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b979ab-9ef6-41a6-ba7b-ced55c9cf3cc")
 	)
 	(wire
 		(pts
@@ -1479,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 194.31 80.01)
+			(xy 167.64 76.2) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 124.46 104.14)
+			(xy 127 104.14) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1540,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 167.64 80.01)
+			(xy 120.65 76.2) (xy 120.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cfa51e-7c86-4346-9ace-62406a7305d5")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1560,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.01) (xy 144.78 80.01)
+			(xy 130.81 76.2) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f9de84-4170-4540-adcb-ff8872c097ce")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 144.78 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1539,17 +1590,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 130.81 80.01)
+			(xy 157.48 76.2) (xy 157.48 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbb80fe6-c8ac-4845-883f-a8f76fcf48e2")
+		(uuid "c505009c-d8e3-4d3a-b234-634518520d34")
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 88.9)
+			(xy 120.65 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6aaefcf-32af-4cda-893e-f9de726c218f")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 124.46 80.01)
+			(xy 116.84 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 80.01) (xy 116.84 80.01)
+			(xy 109.22 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1579,17 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 124.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ca0ce4-ed9a-4622-a6ea-adecb240b5d1")
-	)
-	(wire
-		(pts
-			(xy 130.81 80.01) (xy 142.24 80.01)
+			(xy 130.81 76.2) (xy 142.24 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +1650,7 @@
 	)
 	(hierarchical_label "vin"
 		(shape input)
-		(at 109.22 80.01 180)
+		(at 109.22 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1613,7 +1664,7 @@
 	)
 	(hierarchical_label "vout"
 		(shape input)
-		(at 194.31 80.01 0)
+		(at 194.31 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1627,7 +1678,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 167.64 80.01 0)
+		(at 167.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1636,7 +1687,7 @@
 		(fields_autoplaced yes)
 		(uuid "11a578f9-564a-41c1-9809-c041ce0c6c92")
 		(property "Reference" "#FLG03"
-			(at 167.64 78.105 0)
+			(at 167.64 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1696,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 167.64 74.93 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 80.01 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 80.01 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1722,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 80.01 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1744,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 116.84 80.01 0)
+		(at 116.84 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1702,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "12674de8-e44f-4dd3-93e0-f558aa244761")
 		(property "Reference" "#FLG02"
-			(at 116.84 78.105 0)
+			(at 116.84 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1762,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 116.84 74.93 0)
+			(at 116.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1810,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
-		(at 149.86 82.55 270)
+		(at 149.86 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1769,7 +1820,7 @@
 		(fields_autoplaced yes)
 		(uuid "278593b2-bdb3-4dd1-af0c-06ecda318771")
 		(property "Reference" "Q7"
-			(at 149.86 73.66 90)
+			(at 149.86 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1828,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 149.86 76.2 90)
+			(at 149.86 72.39 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1785,7 +1836,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
-			(at 149.86 84.328 90)
+			(at 149.86 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1854,7 @@
 			)
 		)
 		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1863,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1872,7 @@
 			)
 		)
 		(property "Stock" "1046002"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1881,7 @@
 			)
 		)
 		(property "Price" "0.088USD"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1890,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1899,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1908,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1917,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1926,7 @@
 			)
 		)
 		(property "Category" "Transistors,MOSFETs"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1935,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha & Omega Semicon"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1944,7 @@
 			)
 		)
 		(property "Part" "AO3400A"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1953,7 @@
 			)
 		)
 		(property "Continuous Drain Current (Id)" "5.7A"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1962,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" "630pF@15V"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1971,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C~+150°C@(Tj)"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1980,7 @@
 			)
 		)
 		(property "Type" "1 N-channel"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1989,7 @@
 			)
 		)
 		(property "Drain Source Voltage (Vdss)" "30V"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1998,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" "1.4W"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2007,7 @@
 			)
 		)
 		(property "Gate Threshold Voltage (Vgs(th)@Id)" "1.5V@250uA"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +2016,7 @@
 			)
 		)
 		(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "26.5mΩ@10V,5.7A"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2025,7 @@
 			)
 		)
 		(property "Total Gate Charge (Qg@Vgs)" "7nC@4.5V"
-			(at 149.86 82.55 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,6 +2515,15 @@
 			)
 		)
 		(property "Description" "Low Iq reverse battery protection ideal diode controller, SOT-23-6"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2941042"
 			(at 149.86 99.06 0)
 			(effects
 				(font

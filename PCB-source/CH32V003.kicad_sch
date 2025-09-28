@@ -2807,6 +2807,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5299908"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "89d4f1b0-9892-4261-a8c1-4ce635e46dac")
 		)
@@ -3212,7 +3221,7 @@
 		(at 170.18 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

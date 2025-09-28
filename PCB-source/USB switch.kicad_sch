@@ -1394,6 +1394,57 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 171.45 110.49)
+		(end 215.9 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d936d51-494e-4bbf-82b6-0d650ac37451)
+	)
+	(rectangle
+		(start 171.45 115.57)
+		(end 215.9 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8751e22e-c483-450b-8fd9-9083cc47b8a7)
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 171.958 113.284 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3a3af861-d1a2-420e-b86c-ae95456214e2")
+	)
+	(text "ALTERNATE PART:\nEnergyMath EMS3900\n1.9Ω 800MHz 2:1 USB QFN-10L(1.4x1.8) \nAnalog Switches - Special Purpose ROHS\nPIN COMPATIBLE"
+		(exclude_from_sim no)
+		(at 172.212 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 45 78 1)
+			)
+			(justify left)
+		)
+		(uuid "7a9c8e40-4ce0-48a9-ba1b-5e25d3307638")
+	)
 	(junction
 		(at 110.49 101.6)
 		(diameter 0)
@@ -2757,6 +2808,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11145"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -3677,6 +3677,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A4"
 			(uuid "51ca9829-e61a-4fa8-b695-fa456e2a78d3")
 		)
