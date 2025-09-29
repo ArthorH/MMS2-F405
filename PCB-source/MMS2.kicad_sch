@@ -19754,7 +19754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "QRcode:QR"
 			(at 135.636 183.896 0)
 			(effects
 				(font
@@ -21956,7 +21956,7 @@
 	)
 	(sheet
 		(at 25.4 129.54)
-		(size 30.48 24.13)
+		(size 30.48 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21980,7 +21980,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_IN_CONN.kicad_sch"
-			(at 25.4 154.2546 0)
+			(at 25.4 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

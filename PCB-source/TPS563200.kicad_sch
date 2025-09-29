@@ -1390,7 +1390,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0402,680Ω"
+		(symbol "PCM_JLCPCB-Resistors:0402,220Ω"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1409,7 +1409,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "680Ω"
+			(property "Value" "220Ω"
 				(at 0 0 90)
 				(do_not_autoplace)
 				(effects
@@ -1427,7 +1427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF6800TCE_C25130.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1436,7 +1436,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 680Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1445,7 +1445,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25130"
+			(property "LCSC" "C25091"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1454,7 +1454,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "148945"
+			(property "Stock" "617243"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1499,7 +1499,7 @@
 					(hide yes)
 				)
 			)
-			(property "Class" "Preferred Component"
+			(property "Class" "Basic Component"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1526,7 +1526,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "0402WGF6800TCE"
+			(property "Part" "0402WGF2200TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1535,7 +1535,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "680Ω"
+			(property "Resistance" "220Ω"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1607,7 +1607,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0402,680Ω_0_1"
+			(symbol "0402,220Ω_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -1620,7 +1620,7 @@
 					)
 				)
 			)
-			(symbol "0402,680Ω_1_1"
+			(symbol "0402,220Ω_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2477,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 181.61 99.06)
+			(xy 181.61 99.06) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,680Ω")
+		(lib_id "PCM_JLCPCB-Resistors:0402,220Ω")
 		(at 181.61 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4764,7 +4764,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf0431ea-b93a-4f25-a7aa-07a295978227")
+		(uuid "dd64844d-9a4b-4811-a6ca-72cfdee8b705")
 		(property "Reference" "R13"
 			(at 184.15 105.4099 0)
 			(effects
@@ -4774,7 +4774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680Ω"
+		(property "Value" "220Ω"
 			(at 181.61 105.41 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4792,7 +4792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF6800TCE_C25130.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4801,7 +4801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 680Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25130"
+		(property "LCSC" "C25091"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "148945"
+		(property "Stock" "617243"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4864,7 +4864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Class" "Preferred Component"
+		(property "Class" "Basic Component"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF6800TCE"
+		(property "Part" "0402WGF2200TCE"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4900,7 +4900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "680Ω"
+		(property "Resistance" "220Ω"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -4963,14 +4963,14 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "56eaf364-ab17-4f68-9a21-a8982e07a2a5")
-		)
 		(pin "1"
-			(uuid "58185819-50c8-4e5c-a8a5-bb49ee85a6d3")
+			(uuid "3b347947-6893-4ed6-8685-fe5c34e2af08")
+		)
+		(pin "2"
+			(uuid "ab2fac38-216a-4f0d-99a5-bd824d55a40d")
 		)
 		(instances
-			(project ""
+			(project "MMS2"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c3406df1-7cb0-4484-a477-0c72b46ba076/d003e443-17a0-422c-b61a-990137afd07b"
 					(reference "R13")
 					(unit 1)

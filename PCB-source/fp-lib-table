@@ -6,4 +6,5 @@
   (lib (name "BusBar")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/BusBar/BusBar.pretty")(options "")(descr ""))
   (lib (name "CustomNetTie")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/CustomNetTie.pretty")(options "")(descr ""))
   (lib (name "PgndNetTie")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/PgndNetTie.pretty")(options "")(descr ""))
+  (lib (name "QRcode")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/QRcode.pretty")(options "")(descr ""))
 )
